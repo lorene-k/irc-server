@@ -1,12 +1,11 @@
 # ft_irc
 
-**ft_irc** is a simplified Internet Relay Chat (IRC) server implemented in C++ as part of the École 42 core curriculum. It follows the RFC 1459 protocol basics and allows multiple users to connect using netcat and the IRC reference client **irssi**.
-
+A simplified Internet Relay Chat (IRC) server implemented in C++.
+It follows the RFC 1459 protocol basics and allows multiple users to connect using netcat and the IRC reference client **irssi**.
 It also includes a simple bonus bot capable of responding to basic keywords inside a channel.
 
 
 ## Features
-
 - Multi-user chat server over TCP
 - Handles multiple clients simultaneously
 - Parses and responds to standard IRC commands:
@@ -18,15 +17,7 @@ It also includes a simple bonus bot capable of responding to basic keywords insi
 - Bonus: Simple IRC bot connects to the server and automatically joins a channe, then responds to specific keywords.
 
 
-## System Calls Used
-- `socket()`, `bind()`, `listen()`, `accept()`
-- `recv()`, `send()`
-- `poll()` for I/O multiplexing
-- `close()`
-- `getaddrinfo()`, `inet_ntoa()`, etc...
-
 ## Installation
-
 ```bash
 git clone https://github.com/yourusername/ft_irc.git
 cd ft_irc
