@@ -1,6 +1,7 @@
 # My IRC Server
 
 A simplified Internet Relay Chat (IRC) server implemented in C++.
+
 It follows the RFC 1459 protocol basics and allows multiple users to connect using netcat and the IRC reference client **irssi**.
 It also includes a simple bonus bot capable of responding to basic keywords inside a channel.
 
