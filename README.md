@@ -3,7 +3,7 @@
 A simplified Internet Relay Chat (IRC) server implemented in C++.
 
 It follows the RFC 1459 protocol basics and allows multiple users to connect using netcat and the IRC reference client **irssi**.
-It also includes a simple bonus bot capable of responding to basic keywords inside a channel.
+It also includes a simple bot capable of responding to specific keywords inside a channel.
 
 
 ## Features
@@ -15,7 +15,7 @@ It also includes a simple bonus bot capable of responding to basic keywords insi
 - Implements message broadcasting to channel members
 - Authentication via server password
 - Graceful connection handling and user cleanup
-- Bonus: Simple IRC bot connects to the server and automatically joins a channe, then responds to specific keywords.
+- Bonus: Simple IRC bot connects to the server and automatically joins a channel, then responds to specific keywords.
 
 
 ## Installation
