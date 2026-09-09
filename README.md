@@ -25,7 +25,7 @@ cd ft_irc
 make
 ```
 
-## Usage - examples
+## Usage
 Launch the server with chosen port and password as arguments :
 ```bash
 ./ircserv 6667 example-password
